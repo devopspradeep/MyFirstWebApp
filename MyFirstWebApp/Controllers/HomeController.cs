@@ -13,7 +13,7 @@ namespace MyFirstWebApp.Controllers
         public IActionResult Index()
         {
             System.Diagnostics.Trace.TraceError("Error from application ");
-            System.Diagnostics.Trace.TraceError("Warning from application ");
+            System.Diagnostics.Trace.TraceError("Warning from application ");   
             return View();
         }
 
